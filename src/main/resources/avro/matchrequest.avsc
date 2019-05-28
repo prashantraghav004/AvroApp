@@ -1,0 +1,15 @@
+{
+    "namespace":"com.avro",
+    "type":"record",
+    "doc":"This Schema describes about session base message",
+    "name":"MatchRequest",
+    "fields":[
+        {"name":"interaction_id","type": "string"},
+        {"name":"customer_id","type": "string"},
+        {"name":"context_id","type": "string"},
+        {"name":"work_id","type": "string"},
+        {"name":"work_request_id","type": "string"},
+        {"name":"task_type","type": "string"},
+        {"name":"match_type","type": "string"}
+       ]
+        }
